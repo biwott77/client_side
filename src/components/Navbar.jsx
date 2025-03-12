@@ -10,7 +10,6 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* Brand & Portfolio Link in One Container */}
       <div className="nav-brand">
         <h1>Simple Shop</h1>
         <a href="https://crypto-rho-teal.vercel.app/" className="portfolio-link">
@@ -18,14 +17,12 @@ function Navbar() {
         </a>
       </div>
 
-      {/* Hamburger Menu Icon */}
       <div className="hamburger" onClick={toggleMenu}>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
       </div>
 
-      {/* Navigation Links */}
       <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
         <a href="/">Home</a>
         <a href="/cart">Cart (0)</a>

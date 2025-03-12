@@ -1,12 +1,10 @@
-/* Rotating Text Container */
 .rotating-text-container {
-    height: 40px; /* Adjust height as needed */
+    height: 40px;
     overflow: hidden;
     position: relative;
     margin: 20px 0;
   }
   
-  /* Rotating Text */
   .rotating-text {
     position: absolute;
     width: 100%;
@@ -17,7 +15,6 @@
     animation: slideUp 4s infinite;
   }
   
-  /* Keyframes for Slide Up Animation */
   @keyframes slideUp {
     0% {
       transform: translateY(100%);
