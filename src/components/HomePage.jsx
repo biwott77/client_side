@@ -17,6 +17,7 @@ function HomePage() {
     'Shop the Latest Trends!',
     'Free Shipping on Orders Over $50!',
     'Limited Time Offers!',
+    'Thanks! 😊'
   ], []); // Empty dependency array means `texts` will never change
 
   // Rotate text every 4 seconds
@@ -42,7 +43,7 @@ function HomePage() {
 
   return (
     <div className="homepage">
-      <h1>Our Products</h1>
+      <h1 style={{color: "magenta"}}>Our Products</h1>
 
       {/* Rotating Text Animation */}
       <div className="rotating-text-container">
