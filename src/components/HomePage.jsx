@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { ProductContext } from '../components/ProductContext';
 import ProductCard from '../components/ProductCard';
+import Footer from './Footer';
 
 function HomePage() {
   // Get products data from context
@@ -26,6 +27,7 @@ function HomePage() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

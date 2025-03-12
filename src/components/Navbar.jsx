@@ -1,17 +1,37 @@
+import React, { useState } from 'react';
+import './Navbar.css';
+
 function Navbar() {
-    return (
-      <nav className="navbar">
-        <div className="nav-brand">
-          <h1>Simple Shop</h1>
-        </div>
-        
-        {/* Navigation Links */}
-        <div className="nav-links">
-          <a href="/">Home</a>
-          <a href="/cart">Cart (0)</a>
-        </div>
-      </nav>
-    );
-  }
-  
-  export default Navbar;
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <nav className="navbar">
+      {/* Brand & Portfolio Link in One Container */}
+      <div className="nav-brand">
+        <h1>Simple Shop</h1>
+        <a href="https://crypto-rho-teal.vercel.app/" className="portfolio-link">
+          Portfolio
+        </a>
+      </div>
+
+      {/* Hamburger Menu Icon */}
+      <div className="hamburger" onClick={toggleMenu}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+
+      {/* Navigation Links */}
+      <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+        <a href="/">Home</a>
+        <a href="/cart">Cart (0)</a>
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;
