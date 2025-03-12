@@ -18,7 +18,7 @@ function HomePage() {
     'Free Shipping on Orders Over $50!',
     'Limited Time Offers!',
     'Thanks! 😊',
-    'PA106/G/19348/23',
+    'PA106/G/19348/23: <Moi Kibiwot />',
   ], []); 
 
   useEffect(() => {
