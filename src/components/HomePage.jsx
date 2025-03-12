@@ -17,7 +17,8 @@ function HomePage() {
     'Shop the Latest Trends!',
     'Free Shipping on Orders Over $50!',
     'Limited Time Offers!',
-    'Thanks! 😊'
+    'Thanks! 😊',
+    'PA106/G/19348/23',
   ], []); 
 
   useEffect(() => {
