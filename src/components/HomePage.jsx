@@ -18,7 +18,17 @@ function HomePage() {
     'Free Shipping on Orders Over $50!',
     'Limited Time Offers!',
     'Thanks! 😊',
-    'PA106/G/19348/23: <Moi Kibiwot />',
+    "Something Special Just Ahead!",
+    "Let’s Brainstorm. Innovate. Create.",
+    "Imagine. Build. Elevate. Repeat.",
+    "Collaborate. Integrate. Succeed.",
+    "Ideas Start Here. Let’s Go.",
+    "Think Big. Innovate Boldly.",
+    "Elevate Your Vision Today.",
+    "Explore. Discover. Transform.",
+    "Unleash Creativity. No Limits.",
+    "Revolutionize. Iterate. Inspire.",
+    "Shape the Future Together.",
   ], []); 
 
   useEffect(() => {
