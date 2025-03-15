@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <h1 style={{color: "whitesmoke"}}>Simple Shop</h1>
+        <h1 style={{color: "wheat"}}>Simple Shop</h1>
         <a href="https://crypto-rho-teal.vercel.app/" className="portfolio-link">
           Portfolio
         </a>
