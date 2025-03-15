@@ -52,7 +52,7 @@ function HomePage() {
 
   return (
     <div className="homepage">
-      <h1 style={{color: "magenta"}}>Our Products</h1>
+      <h1 style={{color: "magenta", textDecoration: "underline"}}>Our Products</h1>
 
      
       <div className="rotating-text-container">
